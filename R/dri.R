@@ -9,7 +9,6 @@
 #' @returns DRI matrix
 #' @export
 #'
-#' @examples
 dri <- function(IC, R, Q){
   lambda <- 1 - (sqrt(2) / 2)
   res <- 2 * (((1 - mean(abs((IC[[R]] - IC[[Q]]) / sqrt(2)))) - (lambda))/(1 - (lambda))) - 1
