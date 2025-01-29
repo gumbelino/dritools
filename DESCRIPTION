@@ -1,0 +1,17 @@
+Package: dritools
+Type: Package
+Title: Deliberative Reasoning Index Tools
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Gustavo", "Umbelino",
+      email = "gustavo.kreiaumbelino@zda.uzh.ch",
+      role = c("aut", "cre")
+    )
+  )
+Description: A collection of tools to analyze DRI,
+    including integration with large language models.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
